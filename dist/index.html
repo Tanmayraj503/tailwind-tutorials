@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tailwind v4</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tailwind v4</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="bg-lime-200 h-screen">
-    <!-- <h1 class="text-3xl font-bold underline bg-amber-500 h-72 text-white rounded-e-4xl text-center">Hello world!</h1>
+<body class="bg-lime-200 min-h-screen">
+  <!-- <h1 class="text-3xl font-bold underline bg-amber-500 h-72 text-white rounded-e-4xl text-center">Hello world!</h1>
     <div class="text-4xl bg-[#081f29] w-sm h-12 text-green-400 text-center md:bg-amber-300">Tailwind v4</div>
     <div class="skill-item">
         <div class="flex justify-between items-center mb-2">
@@ -21,20 +21,158 @@
                 style="width: 0%"></div>
         </div>
     </div> -->
-    <div class="flex justify-center items-center h-screen">
-        <div
-            class="flex flex-col mt-4 max-w-sm max-h-sm justify-center items-center mb-10 gap-y-2 md:flex-row bg-white rounded-[10px] md:h-[100px] overflow-hidden m-10 shadow-lg shadow-gray-400">
-            <div class="overflow-hidden md:object-cover">
-                <img class="h-90 w-80 md:w-[100px] md:h-[100px]"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/LVM3_M4%2C_Chandrayaan-3_-_Launch_vehicle_lifting_off_from_the_Second_Launch_Pad_%28SLP%29_of_SDSC-SHAR%2C_Sriharikota_03.webp/1200px-LVM3_M4%2C_Chandrayaan-3_-_Launch_vehicle_lifting_off_from_the_Second_Launch_Pad_%28SLP%29_of_SDSC-SHAR%2C_Sriharikota_03.webp.png"
-                    alt="this is an image">
-            </div>
-            <div class="p-3">
-                <p class="text-center md:items-start mb-1.5 text-2xl font-bold text-[#081f29]">Chandrayaan 3</p>
-                <p class="">It landed on the south pole of the moon.</p>
-            </div>
-        </div>
+  <div class="flex justify-center items-center h-screen">
+    <div
+      class="flex flex-col mt-4 max-w-sm max-h-sm justify-center items-center mb-10 gap-y-2 md:flex-row bg-white rounded-[10px] md:h-[100px] overflow-hidden m-10 shadow-lg shadow-gray-400">
+      <div class="overflow-hidden md:object-cover">
+        <img class="h-90 w-80 md:w-[100px] md:h-[100px]"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/LVM3_M4%2C_Chandrayaan-3_-_Launch_vehicle_lifting_off_from_the_Second_Launch_Pad_%28SLP%29_of_SDSC-SHAR%2C_Sriharikota_03.webp/1200px-LVM3_M4%2C_Chandrayaan-3_-_Launch_vehicle_lifting_off_from_the_Second_Launch_Pad_%28SLP%29_of_SDSC-SHAR%2C_Sriharikota_03.webp.png"
+          alt="this is an image">
+      </div>
+      <div class="p-3">
+        <p class="text-center md:items-start mb-1.5 text-2xl font-bold text-[#081f29]">Chandrayaan 3</p>
+        <p class="">It landed on the south pole of the moon.</p>
+      </div>
     </div>
+  </div>
+
+  <div class="flex flex-col md:flex-row justify-center items-center">
+    <div class="w-full max-w-lg min-h-64 pb-4 bg-white rounded-[20px] m-4 shadow-lg">
+      <div
+        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.95)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">HTML</p>
+        <p>95%</p>
+      </div>
+      <div
+        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.9)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">CSS</p>
+        <p>90%</p>
+      </div>
+      <div
+        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.70)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">JavaScript</p>
+        <p>70%</p>
+      </div>
+      <div
+        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.75)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">React</p>
+        <p>75%</p>
+      </div>
+      <div
+        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.85)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">Tailwind</p>
+        <p>85%</p>
+      </div>
+    </div>
+
+
+
+    <div class="w-full max-w-lg min-h-34 pb-4 bg-white rounded-[20px] m-4 shadow-lg">
+      <div
+        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.95)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">HTML</p>
+        <p>95%</p>
+      </div>
+      <div
+        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.9)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">CSS</p>
+        <p>90%</p>
+      </div>
+      <div
+        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.70)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">JavaScript</p>
+        <p>70%</p>
+      </div>
+      <div
+        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.75)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">React</p>
+        <p>75%</p>
+      </div>
+      <div
+        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.85)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">Tailwind</p>
+        <p>85%</p>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+  <!-- <div class="flex justify-center items-center min-h-screen p-4">
+    <div class="w-full max-w-md bg-white rounded-2xl shadow-lg p-4">
+      <div class="relative flex items-center justify-between text-lg font-bold">
+        <p>HTML</p>
+        <p>95%</p>
+
+        
+        <div class="absolute top-1/2 left-0 w-full h-3 -translate-y-1/2 bg-gray-200 rounded-full"></div>
+
+        
+        <div
+          class="absolute top-1/2 left-0 h-3 -translate-y-1/2 bg-orange-400 rounded-full transition-all duration-1000 ease-out"
+          style="width: 20%;"></div>
+      </div>
+    </div>
+  </div> -->
+
+
+  <!-- <div class="flex justify-center items-center h-screen">
+  <div class="w-[500px] min-h-24 bg-white rounded-[20px] shadow-lg">
+    <div
+      class="flex items-center p-7 relative justify-between w-[500px] text-[20px] font-bold
+      before:content-[''] before:absolute before:top-[60px] before:w-[445px] before:h-[10px] before:bg-gray-200 before:rounded-full
+      after:content-[''] after:absolute after:top-[60px] after:w-0 after:h-[10px] after:rounded-full after:bg-orange-400
+      animate-progress"
+    >
+      <p>HTML</p>
+      <p>95%</p>
+    </div>
+  </div>
+</div> -->
+
+
+  <style>
+    @keyframes growBar {
+      0% {
+        width: 0;
+      }
+
+      100% {
+        width: 422.75px;
+        /* final width same as your bar */
+      }
+    }
+
+    .animate-progress::after {
+      animation: growBar 1s ease-out forwards;
+    }
+  </style>
+
+
 </body>
 
 </html>
