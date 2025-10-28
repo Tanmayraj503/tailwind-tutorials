@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="bg-lime-200 min-h-screen">
+<body class="bg-[#081f29] min-h-screen">
   <!-- <h1 class="text-3xl font-bold underline bg-amber-500 h-72 text-white rounded-e-4xl text-center">Hello world!</h1>
     <div class="text-4xl bg-[#081f29] w-sm h-12 text-green-400 text-center md:bg-amber-300">Tailwind v4</div>
     <div class="skill-item">
@@ -36,40 +36,41 @@
     </div>
   </div>
 
-  <div class="flex flex-col md:flex-row justify-center items-center">
-    <div class="w-full max-w-lg min-h-64 pb-4 bg-white rounded-[20px] m-4 shadow-lg">
+  <div class="flex flex-col max-lg:flex-wrap md:flex-row justify-center items-center mx-5 md:gap-x-6 gap-y-6 mb-10">
+
+    <div class="w-full max-w-[410px] min-h-[240px] pb-4 bg-white rounded-[20px] shadow-lg">
       <div
-        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
-        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
-        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.95)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        class="flex items-center px-4 pt-6 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.95)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
         <p class="">HTML</p>
         <p>95%</p>
       </div>
       <div
-        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
-        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
-        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.9)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        class="flex items-center px-4 pt-2 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.9)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
         <p class="">CSS</p>
         <p>90%</p>
       </div>
       <div
-        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
-        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
-        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.70)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        class="flex items-center px-4 pt-2 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.70)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
         <p class="">JavaScript</p>
         <p>70%</p>
       </div>
       <div
-        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
-        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
-        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.75)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        class="flex items-center px-4 pt-2 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.75)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
         <p class="">React</p>
         <p>75%</p>
       </div>
       <div
-        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
-        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
-        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.85)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        class="flex items-center px-4 pt-2 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.85)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
         <p class="">Tailwind</p>
         <p>85%</p>
       </div>
@@ -77,39 +78,77 @@
 
 
 
-    <div class="w-full max-w-lg min-h-34 pb-4 bg-white rounded-[20px] m-4 shadow-lg">
+    <div class="w-full max-w-[410px] min-h-34 pb-4 bg-white rounded-[20px] shadow-lg">
       <div
-        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
-        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
-        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.95)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        class="flex items-center px-4 pt-6 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.95)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
         <p class="">HTML</p>
         <p>95%</p>
       </div>
       <div
-        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
-        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
-        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.9)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        class="flex items-center px-4 pt-2 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.9)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
         <p class="">CSS</p>
         <p>90%</p>
       </div>
       <div
-        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
-        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
-        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.70)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        class="flex items-center px-4 pt-2 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.70)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
         <p class="">JavaScript</p>
         <p>70%</p>
       </div>
       <div
-        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
-        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
-        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.75)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        class="flex items-center px-4 pt-2 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.75)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
         <p class="">React</p>
         <p>75%</p>
       </div>
       <div
-        class="flex items-center px-6 pt-6 pb-8 relative justify-between text-[15px] md:text-[20px] font-bold overflow-hidden 
-        before:content-[''] before:absolute before:bottom-4 before:left-6 before:w-[calc(100%-3rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
-        after:content-[''] after:absolute after:bottom-4 after:left-6 after:w-[calc((100%-3rem)*0.85)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        class="flex items-center px-4 pt-2 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.85)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">Tailwind</p>
+        <p>85%</p>
+      </div>
+    </div>
+
+    <div class="w-full max-w-[410px] min-h-34 pb-4 bg-white rounded-[20px] shadow-lg">
+      <div
+        class="flex items-center px-4 pt-6 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.95)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">HTML</p>
+        <p>95%</p>
+      </div>
+      <div
+        class="flex items-center px-4 pt-2 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.9)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">CSS</p>
+        <p>90%</p>
+      </div>
+      <div
+        class="flex items-center px-4 pt-2 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.70)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">JavaScript</p>
+        <p>70%</p>
+      </div>
+      <div
+        class="flex items-center px-4 pt-2 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.75)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
+        <p class="">React</p>
+        <p>75%</p>
+      </div>
+      <div
+        class="flex items-center px-4 pt-2 pb-7 relative justify-between text-[clamp(14px,2.5vw,18px)] font-bold overflow-hidden 
+        before:content-[''] before:absolute before:bottom-4 before:left-4 before:w-[calc(100%-2rem)] before:h-[10px] before:bg-gray-200 before:rounded-full
+        after:content-[''] after:absolute after:bottom-4 after:left-4 after:w-[calc((100%-2rem)*0.85)] after:h-[10px] after:rounded-full after:bg-orange-400 transition-all duration-1000 ease-out">
         <p class="">Tailwind</p>
         <p>85%</p>
       </div>
